@@ -1,0 +1,17 @@
+{
+  "name": "schedule",
+  "version": "0.1.0",
+  "description": "",
+  "main": "webpack.config.js",
+  "scripts": {
+    "start": "webpack-dev-server ./webpack.config.js",
+    "build": "webpack ./webpack.config.js"
+  },
+  "author": "Vorozhtsoff",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^3.10.0",
+    "webpack-dev-server": "^2.9.7",
+    "webpack-node-externals": "^1.6.0"
+  }
+}
